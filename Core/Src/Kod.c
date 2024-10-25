@@ -74,7 +74,7 @@ void UART_Send_msg(int16_t msg1, int16_t msg2, int16_t msg3, int16_t msg4)
 //	HAL_Delay(50);
 }
 
-void Parsing()
+void Parsing()  //обработка команды
 {
 	for(int i = 0; i < datasize; i++)
 	{
